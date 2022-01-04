@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./Pages",
+    "checkJs": true,
+    "jsx": "react"
+  }
+}
