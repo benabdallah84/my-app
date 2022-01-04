@@ -5,7 +5,7 @@ async function hundler(req, res) {
     const data = req.body;
     try {
       const client = await MongoClient.connect(
-        "mongodb+srv://slimane47:berriane47@cluster0.tjypi.mongodb.net/meetups?retryWrites=true&w=majority"
+        "mongodb+srv://slimane47:KMJcqzZ4cOZImzxK@cluster0.tjypi.mongodb.net/meetups?retryWrites=true&w=majority"
       );
       const db = client.db();
       const meetupsCollection = db.collection("meetups");
